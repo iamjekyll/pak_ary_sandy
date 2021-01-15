@@ -1,6 +1,7 @@
 import React from "react";
 import './FooterBar.css'
 import { Link } from "react-router-dom";
+import { DaftarIcon, HomeIcon, PaketIcon, PromoIcon } from "../../assets";
 
 const FooterBar = () => {
   return (
@@ -11,7 +12,7 @@ const FooterBar = () => {
             <img
               width="24"
               height="24"
-              src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/atreus/kratos/811ee09c.svg"
+              src={HomeIcon}
               alt="home"
             />
           </div>
@@ -22,7 +23,7 @@ const FooterBar = () => {
             <img
               width="24"
               height="24"
-              src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/atreus/kratos/a8815f96.svg"
+              src={PaketIcon}
               alt="paket"
             />
           </div>
@@ -33,7 +34,7 @@ const FooterBar = () => {
             <img
               width="24"
               height="24"
-              src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/atreus/kratos/b2ce8c51.svg"
+              src={PromoIcon}
               alt="promo"
             />
           </div>
@@ -44,7 +45,7 @@ const FooterBar = () => {
             <img
               width="24"
               height="24"
-              src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/atreus/kratos/4a42b93d.svg"
+              src={DaftarIcon}
               alt="daftar"
             />
           </div>

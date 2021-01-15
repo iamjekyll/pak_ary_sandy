@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import { BlackPanther, CaptainAmerica, IronMan, Spiderman } from "../../assets";
 
 const Header = () => {
   return (
@@ -32,16 +33,16 @@ const Header = () => {
               <div className="cubeFaces">
                 <div className="cubeFace cubeFaceFront">
                   <img
-                    className="javaScriptLogo"
-                    src="https://transvisionku.com/wp-content/uploads/2019/04/countdown-to-launch-marvels-spider-man-character-art-01-us-16aug18.png"
+                    className="spidermanLogo"
+                    src={Spiderman}
                     loading="lazy"
                     alt="spiderman"
                   />
                 </div>
                 <div className="cubeFace cubeFaceBack">
                   <img
-                    className="pythonLogo"
-                    src="https://transvisionku.com/wp-content/uploads/2019/04/AoU_Iron_Man_Mk43_art.png"
+                    className="ironLogo"
+                    src={IronMan}
                     loading="lazy"
                     alt="ironman"
                   />
@@ -50,16 +51,16 @@ const Header = () => {
                 <div className="cubeFace cubeFaceBottom">&nbsp;</div>
                 <div className="cubeFace cubeFaceLeft">
                   <img
-                    className="goLogo"
-                    src="https://transvisionku.com/wp-content/uploads/2019/04/580b57fbd9996e24bc43c026.png"
+                    className="captainLogo"
+                    src={CaptainAmerica}
                     loading="lazy"
                     alt="captain america"
                   />
                 </div>
                 <div className="cubeFace cubeFaceRight">
                   <img
-                    className="cppLogo"
-                    src="https://transvisionku.com/wp-content/uploads/2019/04/black-panther-png-images-2.png"
+                    className="blackPantherLogo"
+                    src={BlackPanther}
                     loading="lazy"
                     alt="black phanter"
                   />

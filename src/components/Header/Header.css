@@ -180,19 +180,15 @@
     transform: rotateX(90deg) translateY(100px);
   }
 }
-.cppLogo,
-.goLogo,
-.javaLogo,
-.pythonLogo {
-  width: 80%;
+.blackPantherLogo,
+.captainLogo,
+.ironLogo,
+.spidermanLogo {
+  width: 100%;
+  height: 100%;
   align-items: center;
 }
-.cppLogo {
-  height: 100%;
-}
-.javaScriptLogo {
-  width: 100%;
-}
+
 .u-flexSpacer {
   flex-grow: 1;
 }

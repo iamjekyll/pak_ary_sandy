@@ -1,5 +1,6 @@
 .footer {
   padding-bottom: 56px;
+  position: sticky;
 }
 
 .bottomnav {
@@ -7,19 +8,19 @@
   position: fixed;
   bottom: 0px;
   width: 100%;
-  /* padding-bottom: 56px; */
+  padding-bottom: 56px;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(108, 114, 124.16) 0px -2px 4px 0px;
   z-index: 20;
   display: flex;
   width: 100%;
   margin: 0px auto;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: flex-start;
 }
 
 .bottomnav > a {
-  width: calc(20%);
+  width: calc(30%);
 }
 
 .bottomnavHome {
