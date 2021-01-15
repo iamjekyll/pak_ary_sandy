@@ -1,0 +1,24 @@
+.homepage__wrapper{
+    background: #F9F8FD;
+}
+
+.homepage__container {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.masthead{
+    height: 480px;
+    flex-direction: row;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content:space-between;
+}
+
+.homepage__textcont{
+    margin-top:0;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+}

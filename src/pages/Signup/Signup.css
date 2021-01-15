@@ -1,0 +1,24 @@
+.signup__wrapper{
+    background: #F9F8FD;
+}
+
+.signup__container {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.low{
+    height: 480px;
+    flex-direction: row;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content:space-between;
+}
+
+.signup__textcont{
+    margin-top:0;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+}
