@@ -1,4 +1,4 @@
-import { FooterBar, Navbar } from "./components";
+import { Footer, FooterBar, Navbar } from "./components";
 import { Homepage, Paket, Signup } from "./pages";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -12,6 +12,7 @@ function App() {
           <Route path="/daftar" component={Signup} />
           <Route path="/paket" component={Paket} />
         </Switch>
+        <Footer />
         <FooterBar />
       </Router>
     </div>

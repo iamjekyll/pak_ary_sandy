@@ -1,0 +1,19 @@
+.cd_wrap {
+    flex: 1;
+    background-color: antiquewhite;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+
+.cd_container{
+    margin: 10px 0;
+}
+
+.text_block{
+    display: block;
+}
+
+.cd_image{
+    width: 75%;
+    border-radius: 8px;
+}
