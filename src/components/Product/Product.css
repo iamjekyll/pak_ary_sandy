@@ -28,11 +28,13 @@
     font-weight: 500;
 }
 
-.paket_goldplus {
-    text-align: center;
-    margin: 0 auto;
-}
-
 .goldplus {
     width: 50%;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.product_list{
+    text-align: center;
+    margin: 0 auto;
 }
