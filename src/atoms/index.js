@@ -1,5 +1,5 @@
 import Card from './Card'
 import CardDesktop from './CardDesktop'
-import Showcase from './Showcase'
+import Cta from './CTA'
 
-export {Card, CardDesktop, Showcase}
+export {Card, CardDesktop, Cta}

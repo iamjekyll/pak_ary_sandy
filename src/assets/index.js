@@ -11,6 +11,8 @@ import Spiderman from './images/spiderman.png'
 import BlackPanther from './images/black_panther.png'
 import IronMan from './images/iron_man.png'
 import CaptainAmerica from './images/captain_america.png'
+import SallyAs from './images/sally.png'
+import SallyTer from './images/sallyterbang.png'
 
 export {
     HomeIcon,
@@ -25,5 +27,7 @@ export {
     Spiderman,
     BlackPanther,
     IronMan,
-    CaptainAmerica
+    CaptainAmerica,
+    SallyAs,
+    SallyTer
 }

@@ -1,3 +1,9 @@
 .foo_wrap{
-    padding: 60px;
+    background-color: #060720;
+    position: relative;
+    border-bottom: none;
+    padding-bottom: 0;
+    padding: 50px 5%;
+    margin-bottom: 0;
+    color: #fff;
 }

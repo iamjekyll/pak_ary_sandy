@@ -1,4 +1,5 @@
 import React from "react";
+import { Cta } from "../../atoms";
 import { Header, Info, Product, ProductDesktop } from "../../components";
 
 const Homepage = () => {
@@ -8,6 +9,7 @@ const Homepage = () => {
       <Info />
       <Product />
       <ProductDesktop />
+      <Cta />
     </div>
   );
 };
