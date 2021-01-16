@@ -22,6 +22,7 @@ const Header = () => {
             </Link>
           </button>
         </div>
+        {/* cube */}
         <div className="_3GkWYt_-VigeG9evky1iVN">
           <div className="cubeSpinnerContainer">
             <div className="shadowContainer">
@@ -69,6 +70,7 @@ const Header = () => {
             </div>
           </div>
         </div>
+        {/* cube */}
       </div>
     </div>
   );
