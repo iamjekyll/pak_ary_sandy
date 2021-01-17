@@ -18,9 +18,6 @@
 
 .pro__bx{
     margin: 5px;
-    background: antiquewhite;
-    text-align: center;
-    border-radius: 8px;
 }
 
 .pro__bx > h3 {
@@ -29,10 +26,31 @@
     font-size: 18px;
 }
 
-.pro__bx > p {
-    display: block;
-    margin: 0;
+.pro_ptp {
+    display: flex;
+    flex-wrap: wrap;  
     color: aliceblue;
+    font-size: 15px;
+}
+
+.pro_ptp > p {
+    flex: 1 1 50%;
+}
+
+.pro_pbt {
+    display: flex;
+    flex-wrap: wrap;  
+    color: aliceblue; 
+    font-size: 15px;
+}
+
+.pro_pbt > p {
+    flex: 1 1 50%;
+}
+
+.pro__harga{
+    font-size: 19px;
+    color: #FDA220;
 }
 
 @media (min-width: 655px) {
@@ -54,9 +72,10 @@
     }
 
     .pro__bx{
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         padding: 16px;
         text-align: center;
-        background-color:#5466d3a6;
+        border-radius: 10px;
+        background: #200751;
+        box-shadow: 5px 5px 10px #1b0645, -5px -5px 10px #25085d;
     }
 }

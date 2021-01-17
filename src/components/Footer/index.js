@@ -7,13 +7,13 @@ const Footer = () => {
       <div
         class="foo_wrap"
       >
-        <div class="site-footer-wrapper centered dark">
-          <div class="footer-divider"></div>
-          <div class="site-footer">
-            <p class="footer-top">
+        <div class="foo_stwrap">
+          <div class="foo_div"></div>
+          <div class="foo_st">
+            <p class="foo_top">
               Ada pertanyaan? Hubungi{" "}
               <a class="footer-top-a" href="tel:+62812345837">
-                018-127-123-123
+                081-234-567-890
               </a>
             </p>
             <ul class="footer-links structural">
@@ -33,7 +33,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-            <p class="footer_copyright">Made by IamJekyll</p>
+            <p class="footer_copyright">Test</p>
           </div>
         </div>
         {/* <div class="center-pixel" style="position:absolute"></div> */}
