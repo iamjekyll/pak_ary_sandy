@@ -11,6 +11,10 @@
     border-bottom: 8px solid #222;
 }
 
+.ct_acct > p {
+    color: #FDA220;
+}
+
 @media (max-width: 656px) {
     .ct_acct > img {
         width: 100%;

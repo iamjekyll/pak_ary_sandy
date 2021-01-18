@@ -29,5 +29,5 @@ export {
     IronMan,
     CaptainAmerica,
     SallyAs,
-    SallyTer
+    SallyTer,
 }

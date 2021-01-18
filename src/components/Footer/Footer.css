@@ -7,3 +7,27 @@
     margin-bottom: 0;
     color: #fff;
 }
+
+.foo_top {
+    color: #FDA220;
+    font-size: 16px;
+}
+
+.footer-top-a {
+    display: block;
+    line-height: 2em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer_copyright {
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: #FDA220;
+}
+
+.footer_copyright > span {
+    display: block;
+}

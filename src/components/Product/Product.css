@@ -1,6 +1,7 @@
 .product_wrap {
-    background-color: #200751;
+    background-color: #060720;
     padding: 20px 0;
+    border-bottom: 8px solid #222;
 }
 
 .pro__ctn {
@@ -74,8 +75,9 @@
     .pro__bx{
         padding: 16px;
         text-align: center;
-        border-radius: 10px;
-        background: #200751;
-        box-shadow: 5px 5px 10px #1b0645, -5px -5px 10px #25085d;
+        border-radius: 20px;
+background: linear-gradient(145deg, #060722, #05061d);
+box-shadow:  10px 10px 20px #030411,
+             -10px -10px 20px #090a2f;
     }
 }

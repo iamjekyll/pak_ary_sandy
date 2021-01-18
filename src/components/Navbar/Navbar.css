@@ -1,15 +1,11 @@
 .nav__wrap{
     --tw-bg-opacity: 1;
-    /* background-color: rgba(255, 255, 255, var(--tw-bg-opacity)); */
-    background-color: black;
+    background-color: #060720;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 0.5rem;
-    /* top: 0;
-    position: sticky; */
     --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-    /* visibility: hidden; */
 }
 
 .nav__container {
