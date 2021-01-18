@@ -12,8 +12,8 @@ const Footer = () => {
           <div class="foo_st">
             <p class="foo_top">
               Ada pertanyaan? Hubungi{" "}
-              <a class="footer-top-a" href="tel:+62812345837">
-                081-234-567-890
+              <a class="footer-top-a" href="tel:+6288289261218">
+                0882-8926-1218
               </a>
             </p>
             <ul class="footer-links structural">
