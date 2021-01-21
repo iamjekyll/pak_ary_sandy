@@ -16,16 +16,22 @@ const Promo = () => {
           </div>
         </div>
       </div>
-      <div>
-          <div>
-              <div>
-                <h2>Nikmati Gratis All Channel 6 Bulan</h2>
-                <h2>Daftar Paket Gold</h2>
-              </div>
-              <div>
-                  <p>Images</p>
-              </div>
+      <div className="ajierjaeoiwjr">
+        <div className="promo_promonikmat">
+          <div className="uarahwua">
+            <h2>Nikmati Gratis All Channel 6 Bulan</h2>
           </div>
+          <div>
+            <a
+              href="https://api.whatsapp.com/send?phone=6288289261218&text=Halo%20*Transvision*!%0ASaya%20tertarik%20untuk%20berlangganan%20Transvision%2Cmohon%20info%20promo%20dan%20persyaratannya%20apa%20saja%20%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="button"
+            >
+              Daftar Paket Gold
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

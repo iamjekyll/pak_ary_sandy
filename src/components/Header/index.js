@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { BlackPanther, CaptainAmerica, IronMan, Spiderman } from "../../assets";
 
 const Header = () => {
@@ -16,11 +16,14 @@ const Header = () => {
             melalui marketing resmi kami daftar online via whatsapp proses cepat
             dan aman.
           </p>
-          <button>
-            <Link className="daftar" to="/daftar">
+          <a
+              href="https://api.whatsapp.com/send?phone=6288289261218&text=Halo%20*Transvision*!%0ASaya%20tertarik%20untuk%20berlangganan%20Transvision%2Cmohon%20info%20promo%20dan%20persyaratannya%20apa%20saja%20%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="button"
+            >
               Daftar
-            </Link>
-          </button>
+            </a>
         </div>
         {/* cube */}
         <div className="_3GkWYt_-VigeG9evky1iVN">

@@ -33,3 +33,29 @@
 .promo_container > h6 {
     color: violet;
 }
+
+.ajierjaeoiwjr {
+    padding: 30px;
+    background-color: #060720;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.promo_promonikmat {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.promo_promonikmat > * {
+    flex: 1 1 100%;
+}
+
+#button {
+    background-color: #FDA220;
+    padding: 10px;
+    overflow: hidden;
+    outline: none;
+    font-weight: bold;
+    color: #222;
+    border-radius: 8px;
+}
