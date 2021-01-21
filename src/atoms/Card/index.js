@@ -6,7 +6,7 @@ const Card = (props) => {
     <div className="pro__ctn">
       <div className="pro__bx">
         <img src={img} alt={name} />
-        <h3>{name}</h3>
+        <h3>PAKET {name}</h3>
         <div className="pro_ptp">
           <p>6 Bulan</p>
           <p className="pro__harga">Rp {price1}</p>
