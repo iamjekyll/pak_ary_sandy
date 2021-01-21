@@ -1,83 +1,81 @@
 .product_wrap {
-    background-color: #060720;
-    padding: 20px 0;
-    border-bottom: 8px solid #222;
+  background-color: #060720;
+  padding: 20px 0;
+  border-bottom: 8px solid #222;
 }
 
 .pro__ctn {
-    float: left;
-    width: 25%;
-    padding: 0 5px;
-    margin: 5px 0;
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+  margin: 5px 0;
 }
 
 .product_wrap:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.pro__bx{
-    margin: 5px;
+.pro__bx {
+  margin: 5px;
 }
 
 .pro__bx > h3 {
-    text-transform: uppercase;
-    color: aliceblue;
-    font-size: 18px;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-size: 18px;
 }
 
 .pro_ptp {
-    display: flex;
-    flex-wrap: wrap;  
-    color: aliceblue;
-    font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  color: aliceblue;
+  font-size: 15px;
 }
 
 .pro_ptp > p {
-    flex: 1 1 50%;
+  flex: 1 1 50%;
 }
 
 .pro_pbt {
-    display: flex;
-    flex-wrap: wrap;  
-    color: aliceblue; 
-    font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  color: aliceblue;
+  font-size: 15px;
 }
 
 .pro_pbt > p {
-    flex: 1 1 50%;
+  flex: 1 1 50%;
 }
 
-.pro__harga{
-    font-size: 19px;
-    color: #FDA220;
+.pro__harga {
+  font-size: 19px;
+  color: #fda220;
 }
 
 @media (min-width: 655px) {
-    .product_wrap{
-      display: none;
-    }
+  .product_wrap {
+    display: none;
+  }
 }
 
 @media (max-width: 655px) {
+  .pro__bx > img {
+    width: 100%;
+    border-radius: 8px;
+  }
 
-    .pro__bx > img {
-        width: 100%;
-        border-radius: 8px;
-    }
+  .pro__ctn {
+    width: 100%;
+    display: block;
+  }
 
-    .pro__ctn {
-        width: 50%;
-        display: block;
-    }
-
-    .pro__bx{
-        padding: 16px;
-        text-align: center;
-        border-radius: 20px;
-background: linear-gradient(145deg, #060722, #05061d);
-box-shadow:  10px 10px 20px #030411,
-             -10px -10px 20px #090a2f;
-    }
+  .pro__bx {
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #060722, #05061d);
+    box-shadow: 10px 10px 20px #030411, -10px -10px 20px #090a2f;
+  }
 }
