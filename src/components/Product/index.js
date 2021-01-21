@@ -1,11 +1,12 @@
 import React from 'react'
-import { Diamond, DiamondPlus, Gold, Platinum } from '../../assets'
+import { Diamond, DiamondPlus, Gold, Nomat, Platinum } from '../../assets'
 import { Card } from '../../atoms'
 import './Product.css'
 
 const Product = () => {
     return (
         <div className="product_wrap">
+            <Card name="nomat" img={Nomat} price1="420.000" price2="750.000" />
             <Card name="gold" img={Gold} price1="750.000" price2="1.300.000" />
             <Card name="platinum" img={Platinum} price1="1.100.000" price2="1.900.000" />
             <Card name="diamond" img={Diamond} price1="1.600.000" price2="2.400.000" />
